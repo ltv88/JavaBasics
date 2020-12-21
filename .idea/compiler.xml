@@ -6,8 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JavaBasics" />
+        <module name="calc_interface" />
+        <module name="calc_console" />
+        <module name="calc_core" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="test" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
