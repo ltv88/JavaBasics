@@ -8,10 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="calc_interface" />
         <module name="calc_console" />
+        <module name="homework_2" />
         <module name="calc_core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="JavaBasics" target="1.5" />
       <module name="test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
