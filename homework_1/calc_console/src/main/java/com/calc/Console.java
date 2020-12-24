@@ -13,9 +13,9 @@ public class Console {
 
         CalcCore calcCore = new CalcCore();
 
-        double a = 2;
-        double b = 0;
-        String operation = "+";
+        double a = Double.parseDouble(args[0]);
+        double b = Double.parseDouble(args[1]);
+        String operation = args[2];
 
         log.info(":> Result: "+ calcCore.result(operation, a, b));
 
